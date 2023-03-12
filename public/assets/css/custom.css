@@ -1,0 +1,121 @@
+.backgSet {
+    padding: 8px;
+    background-color: #fff;
+    -webkit-box-shadow: 0px 1px 27px 13px #F2F2F2;
+    box-shadow: 0px 1px 27px 13px #F2F2F2;
+    border-radius: 5px;
+}
+
+.main-active{
+    background-color: #224442 !important;
+    color: white !important;
+}
+.active{
+    background-color: #efefef !important;
+    color: #3a3b45 !important;
+}
+
+.topbar-bg{
+    background-color: #eef0f0 !important;
+}
+
+.side-menu-fw{
+    font-weight: 700;
+}
+
+.page-header{
+    font-weight: 700;
+}
+
+.mt-15{
+    margin-top: 15px;
+}
+
+table > thead > tr {
+    background-color: #eef0f0 !important;
+    color: #3a3b45 !important;
+}
+
+.custom-text-info{
+    color: #224442 !important;
+}
+
+.color-box {
+    height: 25px;
+    width: 25px;
+    display: table-cell;
+    border-radius: 5px;
+}
+
+.btn-maden {
+    background-color: #224442; color: white;
+} 
+
+.sm-img{
+    width: 35px;
+    height: 35px;
+    border-radius: 5px;
+}
+
+.br-5{
+    border-radius: 5px;
+}
+
+.mt-30{
+    margin-top: 30px;
+}
+
+.custom-warning{
+    background-color: #c0931f;
+    color: white;
+}
+
+.maden-green{
+    color: #224442;
+}
+
+.pull-right{
+    float: right !important;
+}
+
+.table-image{
+    width: 40px !important;
+    height: 40px !important;
+    border-radius: 5px;
+}
+
+/********* Maden Card **************/
+.container-card {
+    position: relative;
+    text-align: center;
+    color: rgb(0, 0, 0);
+  }
+  
+  .bottom-right {
+    position: absolute;
+    bottom: 80px;
+    right: 550px;
+  }
+  
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  /********* Maden Card **************/
+
+  /********* Sidebar Menu **************/
+  .sidenav {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    background-color: #eef0f0;
+    }
+
+    .main {
+    margin-left: 160px; /* Same as the width of the sidebar */
+    padding: 0px 10px;
+    }
+    /********* Sidebar Menu **************/

@@ -1,0 +1,80 @@
+@extends('layouts.app')
+
+@section('content')
+<div class="container-fluid">
+    <div id="page-wrapper">
+        <div class="row">
+            <div class="col-lg-4">
+                <h1 class="page-header">Edit Discount Code</h1>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="panel panel-default">
+                    <div class="panel-body backgSet">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <label>Nick Name</label>
+                                    <input type="text" name="nick_name" class="form-control" placeholder="NGIT123">
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <label>Discount Code</label>
+                                    <input type="text" name="discount_code" class="form-control" placeholder="FREE">
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <label>Max Usage</label>
+                                    <input type="text" name="discount_code" class="form-control" placeholder="100">
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <label>From Date</label>
+                                    <input type="datetime-local" name="from_date" class="form-control" placeholder="2022-05-05 05:05:00">
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <label>To Date</label>
+                                    <input type="datetime-local" name="to_date" class="form-control" placeholder="2022-05-05 05:05:00">
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <label>Discount Type</label>
+                                    <select class="form-control" name="discount_type">
+                                        <option>Perc</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <label>Discount Value</label>
+                                    <input type="text" name="discount_value" class="form-control" placeholder="1">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card-footer text-right" dir="ltr">
+                            <a href="{{ route('discount-codes.index') }}" class="btn btn btn-outline-dark">Cancel</a>
+                            <button type="Submit" class="btn btn-maden">Save Changes</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</div>
+@endsection
+
+@section('page-styles')
+@stop
+
+@section('page-script')
+@stop
